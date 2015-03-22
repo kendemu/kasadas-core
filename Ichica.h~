@@ -1,0 +1,8 @@
+boolean pinstate[8];
+
+void ToggleLED(int pin){
+  if(pinstate[pin] == true)
+    pinstate = false;
+  else pinstate = true;
+  DigitalWrite(pin, pinstate[pin]);
+}

@@ -1,3 +1,0 @@
-boolean pinstate[2] = {true,false};
-
-void ToggleLED(int pin);x

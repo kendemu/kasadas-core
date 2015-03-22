@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include "Math.h"
-#include <lchica.h>
+#include <kasadas-core.h>
 #ifndef Arduino_h
 #define Arduino_h
 #endif
